@@ -24,10 +24,6 @@ $(call inherit-product, device/lenovo/tb_x704l/device.mk)
 PRODUCT_COPY_FILES += \
 	bionic/libc/zoneinfo/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata
 
-# Libshims
-PRODUCT_PACKAGES += \
-    libshims_qseecomd
-
 # Device identifier. This must come after all inclusions
 PRODUCT_NAME := full_tb_x704l
 PRODUCT_DEVICE := tb_x704l

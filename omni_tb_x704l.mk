@@ -23,8 +23,4 @@ $(call inherit-product, device/lenovo/tb_x704l/full_tb_x704l.mk)
 PRODUCT_COPY_FILES += \
 	bionic/libc/zoneinfo/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata
 
-# Libshims
-PRODUCT_PACKAGES += \
-    libshims_qseecomd
-
 PRODUCT_NAME := omni_tb_x704l
